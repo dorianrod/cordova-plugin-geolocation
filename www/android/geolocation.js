@@ -21,7 +21,7 @@
 
 var exec = cordova.require('cordova/exec'); // eslint-disable-line no-undef
 var utils = require('cordova/utils');
-var PositionError = require('./PositionError');
+var PositionError = require('../PositionError');
 
 // Native watchPosition method is called async after permissions prompt.
 // So we use additional map and own ids to return watch id synchronously.
